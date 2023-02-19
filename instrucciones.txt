@@ -1,0 +1,8 @@
+En la imagen docker podman pull quay.io/redhattraining/builds-for-managers
+
+Tenemos una aplicacion en docker que escucha en el 8080 TCP
+
+Tenemos la misma aplicacion en git en : https://github.com/pedrolp85/ex288_ex6.git
+La cual puede construirse en Openshift con s2i y la builder image php:7.3
+
+Levantamos la aplicacion con cualquiera de las 2 sources y añadir health monitoring
