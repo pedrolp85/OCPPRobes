@@ -1,4 +1,3 @@
-
 Tenemos una aplicacion  java en git en : https://github.com/pedrolp85/ex288_ex6.git
 La cual puede construirse en Openshift con s2i y la builder image de java y un repositorio de maven
 en el nexus del laboratorio
@@ -7,6 +6,10 @@ en el nexus del laboratorio
 oc new-app --as-deployment-config --name quip \
 --build-env MAVEN_MIRROR_URL=http://${RHT_OCP4_NEXUS_SERVER}/repository/java \
 -i redhat-openjdk18-openshift:1.5 --context-dir quip \
-https://github.com/${RHT_OCP4_GITHUB_USER}/DO288-apps#app-deploy
+https://github.com/pedrolp85/ex288_ex6.git
 
 Configura un healt check para el socket TCP 8080
+
+
+
+ añadir health monitoring
