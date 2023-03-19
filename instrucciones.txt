@@ -8,8 +8,9 @@ oc new-app --as-deployment-config --name quip \
 -i redhat-openjdk18-openshift:1.5 --context-dir quip \
 https://github.com/pedrolp85/ex288_ex6.git
 
-Configura un healt check para el socket TCP 8080
+Configura una sonda con las sig características:
+- liveness
+- tcp 8080
+- la senda debe persistir a otra build
 
 
-
- añadir health monitoring
