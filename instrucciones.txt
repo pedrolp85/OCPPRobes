@@ -11,6 +11,9 @@ https://github.com/pedrolp85/ex288_ex6.git
 Configura una sonda con las sig características:
 - liveness
 - tcp 8080
-- la senda debe persistir a otra build
+- initial delay = 30s
+- timeout seconds = 10s
+
+- la sonda debe persistir a otra build
 
 
